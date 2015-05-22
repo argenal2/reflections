@@ -5,3 +5,28 @@ You make so that now you are able to use all of the git tools with the files in 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is where we add all the files from the working directory that we then want to commit to the repository. It offers a lot of value since its gives us the power to commit only the files we wish to add to the repository instead of all the files from the working director, some which may not be needed to be added to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can check using the git diff command to see the changes you have made to the file compared to the one from the repository and there you can make sure that you only are committing one logical change. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Some situations are when we want to add some experimental stuff to a program but want to keep a copy of it intact so we might create a new branch to make those experimental changes. 
+
+How do the diagrams help you visualize the branch structure?
+
+It makes it easier to see which commits belong to which branches. 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is a new branch that combines changes in code from both branches merged compared to the original branch from which they diverged. We represent the merged branch as having two parents since when using the git log command we can see all the different commits from both of the parent branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+There are no cons of automatic merging that I can think off in comparison to merging manually. The pros are that its merges branches much faster and efficiently. The only downside of automatic merging is that sometimes there are conflicts and we have to do some of the merging manually but this is still miles better than doing all of it manually.
+
+
+
+
+
+
