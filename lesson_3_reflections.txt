@@ -17,3 +17,12 @@ This way if we are offline we can keep working on the latest version of the remo
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Everything would be harder. I would have to keep sending my collaborators my code through something like dropbox and it would be very hard to work on the code at the same time and then trying to merge them. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When working on a new feature with a friends. This has the benefit of not possibly leaving the master broken and having all the freedom to experiment on this new branch. 
+
+
+
+
+
